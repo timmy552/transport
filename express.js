@@ -214,7 +214,7 @@ app.post('/admintickets', async(req,res) => {
         res.render('dashboard.ejs')
     } )
     app.get('/homepage', (req,res)=>{
-        res.render('homepage.ejs')
+        res.render('index.ejs')
     } )
     app.get('/forgetpassword', (req,res)=>{
         res.render('forgetpassword.ejs')
